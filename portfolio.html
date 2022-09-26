@@ -8,7 +8,7 @@
     <!-- Normalizacja CSS -->
     <link rel="stylesheet" href="./css/modern-normalize.css" />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,37 +19,39 @@
   </head>
 
   <body>
-    <header class="top-bar--bordered">
-      <div class="menu-bar page-width">
-        <nav class="menu">
-          <a href="./" class="main-logo">Web<span class="main-logo--brad-color">Studio</span></a>
+    <header class="menu menu--bott-border">
+      <nav class="nav">
+        <a href="./" class="nav__main-logo"
+          ><span class="nav__main-logo--brad-color">Web</span>Studio</a
+        >
 
-          <ul class="nav">
-            <li class="nav__item"><a class="nav__link" href="./index.html">Agencja</a></li>
-            <li class="nav__item active">
-              <a class="nav__link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav__item"><a class="nav__link" href="#kontakt">Kontakt</a></li>
-          </ul>
-        </nav>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__list-link" href="./index.html">Agencja</a>
+          </li>
+          <li class="nav__list-item active">
+            <a class="nav__list-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav__list-item"><a class="nav__list-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
 
-        <section>
-          <ul class="contact">
-            <li class="contact__item">
-              <svg class="contact__before-icon" height="12" width="16">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>
-              <a href="mailto:info@devstudio.com" class="contact__link">info@devstudio.com</a>
-            </li>
-            <li class="contact__item">
-              <svg class="contact__before-icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>
-              <a href="tel:+48111111111" class="contact__link">+48 111 111 111</a>
-            </li>
-          </ul>
-        </section>
-      </div>
+      <section>
+        <ul class="nav-contact">
+          <li class="nav-contact__item">
+            <svg class="nav-contact__icon-before" height="12" width="16">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            <a href="mailto:info@devstudio.com" class="nav-contact__link">info@devstudio.com</a>
+          </li>
+          <li class="nav-contact__item">
+            <svg class="nav-contact__icon-before" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <a href="tel:+48111111111" class="nav-contact__link">+48 111 111 111</a>
+          </li>
+        </ul>
+      </section>
     </header>
 
     <main>

@@ -66,10 +66,6 @@ figure {
   color: var(--primary-color-text);
 }
 
-/* .top-bar--bordered {
-  border-bottom: 1px solid #ececec;
-} */
-
 .menu {
   font-weight: 500;
   font-size: 14px;
