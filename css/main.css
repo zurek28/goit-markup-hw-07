@@ -669,11 +669,18 @@ figure {
   list-style: none;
   padding-bottom: 60px;
   margin-left: 215px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7em;
+  /* or 171% */
+  letter-spacing: 0.03em;
 }
 .footer__contact-item {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.7em;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgb(255, 255, 255);
@@ -824,7 +831,7 @@ figure {
 .projects-sort__button:not(:last-child) {
   margin-right: 8px;
 }
-.projects-sort__button--apperance {
+.projects-sort__button-apperance {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -837,7 +844,7 @@ figure {
   border: 0;
   padding: 6px 22px 6px 22px;
 }
-.projects-sort__button--apperance:hover, .projects-sort__button--apperance:focus {
+.projects-sort__button-apperance:hover, .projects-sort__button-apperance:focus {
   background-color: rgb(33, 150, 243);
   cursor: pointer;
   color: rgb(255, 255, 255);

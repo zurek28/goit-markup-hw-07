@@ -31,12 +31,21 @@
     list-style: none;
     padding-bottom: 60px;
     margin-left: 215px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+
+    /* or 171% */
+    letter-spacing: 0.03em;
   }
 
   &__contact-item {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.7em;
 
     /* or 171% */
     letter-spacing: 0.03em;
